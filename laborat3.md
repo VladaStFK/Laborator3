@@ -105,7 +105,9 @@ Dupa modul cum am creat modelul Category, creez exact asa  modelul Task si mode
 ![ref4]
 #### ***3.2. Creați o tabelă intermediară pentru relația de tipul multe-la-multe dintre sarcini și etichete:***
 
-![](Aspose.Words.e6d2be97-9563-4d95-92b9-a30e4f0d7d60.016.png)![](Aspose.Words.e6d2be97-9563-4d95-92b9-a30e4f0d7d60.017.png)
+![](Aspose.Words.e6d2be97-9563-4d95-92b9-a30e4f0d7d60.016.png) 
+
+![](Aspose.Words.e6d2be97-9563-4d95-92b9-a30e4f0d7d60.017.png)
 
 ***3.2.1 Adaug relația multe-la-multe in Taks si Tag:***
 
