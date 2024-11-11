@@ -39,49 +39,49 @@ Framework
 Chişinău 2024
 ## **Condiții:**
 ### ***1. Pregătirea pentru lucru***
-3. *Configurați variabilele de mediu în fișierul .env pentru a vă conecta la baza de date:*
+1.3. *Configurați variabilele de mediu în fișierul .env pentru a vă conecta la baza de date:*
 
-` `![](Aspose.Words.e6d2be97-9563-4d95-92b9-a30e4f0d7d60.001.png)
+![](Aspose.Words.e6d2be97-9563-4d95-92b9-a30e4f0d7d60.001.png)
 
 ### ***2. Crearea modelelor și migrațiilor*** 
-1. *Creez modelul Category împreună cu migrarea aferentă:*
+2.1. *Creez modelul Category împreună cu migrarea aferentă:*
 
 ![](Aspose.Words.e6d2be97-9563-4d95-92b9-a30e4f0d7d60.002.png)
 
-1. *Definirea structurii tabelei category în migrație:*
+2.2. *Definirea structurii tabelei category în migrație:*
 
 ![](Aspose.Words.e6d2be97-9563-4d95-92b9-a30e4f0d7d60.003.png)
 
 Dupa modul cum am creat modelul Category, creez exact asa  modelul Task si modelul Tag împreună cu migrarea aferentă.
 
 
-1. ***Creați modelul Task — sarcina.***
+2.3. ***Creați modelul Task — sarcina.***
 
 ![](Aspose.Words.e6d2be97-9563-4d95-92b9-a30e4f0d7d60.004.png)
 
-1. ` `***Definirea structurii tabelei task în migrație:***
+2.4. ***Definirea structurii tabelei task în migrație:***
 
 ![](Aspose.Words.e6d2be97-9563-4d95-92b9-a30e4f0d7d60.005.png)
 
-1. ***Creați modelul Tag — sarcina.***
+2.5. ***Creați modelul Tag — sarcina.***
 
 ![](Aspose.Words.e6d2be97-9563-4d95-92b9-a30e4f0d7d60.006.png)
 
-1. ***Definirea structurii tabelei tag în migrație:***
+2.6. ***Definirea structurii tabelei tag în migrație:***
 
 ![](Aspose.Words.e6d2be97-9563-4d95-92b9-a30e4f0d7d60.007.png)
 
-1. ***Rulați migrarea pentru a crea tabelele în baza de date***
+2.7. ***Rulați migrarea pentru a crea tabelele în baza de date***
 
 ![](Aspose.Words.e6d2be97-9563-4d95-92b9-a30e4f0d7d60.008.png)
 
-1. ***Adăugați câmpul $fillable în modelele Task, Category și Tag pentru a permite atribuirea în masă a datelor.***
+2.8. ***Adăugați câmpul $fillable în modelele Task, Category și Tag pentru a permite atribuirea în masă a datelor.***
 
-   **Pentru Category:**
+**Pentru Category:**
 
 ![ref1]
 
-`	`**Pentru Taks:**
+**Pentru Taks:**
 
 ![ref2]
 
@@ -89,8 +89,8 @@ Dupa modul cum am creat modelul Category, creez exact asa  modelul Task si mode
 
 ![](Aspose.Words.e6d2be97-9563-4d95-92b9-a30e4f0d7d60.011.png)
 
-### ***Nr. 3. Relația dintre tabele***
-#### ` `***3.1. Creați o migrare pentru a adăuga câmpul category\_id în tabela task.***
+### ***3. Relația dintre tabele***
+#### ***3.1. Creați o migrare pentru a adăuga câmpul category\_id în tabela task.***
 
 ![](Aspose.Words.e6d2be97-9563-4d95-92b9-a30e4f0d7d60.012.png)
 
@@ -134,11 +134,11 @@ Dupa modul cum am creat modelul Category, creez exact asa  modelul Task si mode
 
 ![](Aspose.Words.e6d2be97-9563-4d95-92b9-a30e4f0d7d60.022.png)
 
-**
+
 
 ***4. Relațiile dintre modele***
 
-` `***4.1. Adăugați relații în modelul Category, adaugă metoda tasks pentru a indica relația de tipul „o categorie poate avea multe sarcini”:***
+***4.1. Adăugați relații în modelul Category, adaugă metoda tasks pentru a indica relația de tipul „o categorie poate avea multe sarcini”:***
 
 ![](Aspose.Words.e6d2be97-9563-4d95-92b9-a30e4f0d7d60.023.png)
 
